@@ -21,7 +21,7 @@ const SpecialArea = (props: IProps) => {
         <Divider style={{ borderColor: 'rgb(216, 216, 216)',color: 'rgb(216, 216, 216)' }} orientation="left">{special}</Divider>
         <Row justify="start" wrap={true}>
           {navarr.map(item => {
-            return <Col style={{ minWidth: 200 }} span={4}><Card className='itemDiv' title={<span style={{color: 'rgb(216, 216, 216)'}}>{item.interName}</span>} extra={<span onClick={() => JumpSrc(item.url)} style={{ color: 'rgb(216, 216, 216)', cursor: 'pointer' }}>More</span>} size="small"><p style={{ fontSize: '8px' }}>{strD}:{item.interDescribe}</p></Card></Col>
+            return <Col style={{ minWidth: 200 }} span={4}><Card className='itemDiv' title={<span style={{color: 'rgb(216, 216, 216)'}}>{item.interName}</span>} extra={<span onClick={() => JumpSrc(item.url)} style={{ color: 'rgb(216, 216, 216)', cursor: 'pointer' }}>More</span>} size="small"><p style={{ fontSize: '8px', color: 'rgb(216, 216, 216)' }}>{strD}:{item.interDescribe}</p></Card></Col>
           })}
         </Row>
       </div>
