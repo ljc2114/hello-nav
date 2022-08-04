@@ -11,7 +11,7 @@ const SpecialArea = (props: IProps) => {
   const createDomSpecial = (navarr: any[], special: string, strD: string) => {
     const JumpSrc = (src: string) => {
       if (src.length !== 0) {
-        window.open(src)
+        window.location.href = src
       } else {
         setIsModal(true)
       }
