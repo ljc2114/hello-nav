@@ -4,8 +4,11 @@ import VideoBg from './components/video';
 import Header from './layout/Header';
 import SpecialArea from './components/special/SpecialArea';
 import ModalWorld from './components/modelworld';
-import { Switch } from 'antd';
+import { Button, Modal, Switch } from 'antd';
+import { DropboxOutlined } from '@ant-design/icons';
+
 import './App.css';
+import logos from './logo';
 
 function App(props: any) {
   const [widthBg, setWidthBg] = useState(501);
@@ -50,10 +53,22 @@ function App(props: any) {
       </div>}
       <Header isChecked={isChecked} />
       <ModalWorld isModalVisible={isModalVisible} setIsChecked={setIsChecked} setIsModalVisible={setIsModalVisible} />
-      <Switch style={{marginLeft: 10}} checkedChildren="开启" unCheckedChildren="关闭" onChange={checked => checkedClick(checked)} defaultChecked={false} checked={isChecked}/>
+      <Switch style={{marginLeft: 10}} checkedChildren="开启" unCheckedChildren="关闭" onChange={checked => checkedClick(checked)} defaultChecked={false} checked={isChecked}/>&emsp;
+      <Button type='primary' icon={<DropboxOutlined />} onClick={() => {
+        Modal.warning({
+          title: '开发不易，还请打赏',
+          content: (
+            <div>
+              <img src={ logos.payment }alt="" style={{ width: 200, height: 400}} />
+              <p>获取密码请添加微信：18845630338</p>
+            </div>
+          ),
+          onOk() {},
+        });
+      }}>点击打赏</Button>
       <SpecialArea isChecked={isChecked} setIsModal={setIsModal} />
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-      <footer className="footer">更好意见请联系QQ：2594792470，全站免费收录，非盈利,<a onClick={aclick} href="javascript:void(0)">添加微信</a></footer>
+      <footer className="footer">更好意见请 <a onClick={aclick} href="javascript:void(0)">联系我们</a></footer>
     </div>
   );
 }
