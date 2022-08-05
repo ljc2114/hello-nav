@@ -132,7 +132,7 @@ const navs = {
     {
       interName: '抖淫短视频',
       interDescribe: '可刷的小视频。',
-      url: 'https://3atv9266.com/app/xjj.html',
+      url: 'https://xn--yet892eb8c6tn94r.com/',
     },
     {
       interName: '小姐姐短视频',
