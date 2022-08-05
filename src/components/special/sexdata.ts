@@ -4,21 +4,14 @@ const navs = {
       interName: '榨汁姬',
       interDescribe: '分类明确，多以国内，解说，VR。',
       url: 'https://zhazhijiav.in/',
-    },
-    {
+    }, {
       interName: '5G影院',
       interDescribe: '5G影院稳定且多为短视频。',
       url: 'https://59279ti.buzz/',
-    },
-    {
+    }, {
       interName: '恐怖剧情',
       interDescribe: '俄罗斯系列，各类精品。',
       url: 'https://3atv9266.com/vod/37.html',
-    },
-    {
-      interName: '小姐姐短视频',
-      interDescribe: '仅支持手机观看，等同海外抖音。',
-      url: 'https://3atv9266.com/app/xjj.html',
     }, {
       interName: '四虎影院',
       interDescribe: '视频类目清晰',
@@ -35,6 +28,10 @@ const navs = {
       interName: '一本道',
       interDescribe: '日更，海量内容',
       url: 'https://90maoxx.com/',
+    }, {
+      interName: '猎奇',
+      interDescribe: '男同女同、偷拍自拍、重口',
+      url: 'https://xn--6sl-liqivodcom-265y81sv86ipxq897b.liqivod-com.com/',
     }, {
       interName: '更多地址>>',
       url: 'https://yandex.com/',
@@ -76,6 +73,11 @@ const navs = {
     url: 'https://www.51cg3.com/',
     interDescribe: '当天热瓜当天吃。'
   },
+  {
+    interName: '泄密',
+    url: 'https://xn--8w3-xiemispcom-sb1ww420bv16drbb.xn--sp-2h1dl53d.com/',
+    interDescribe: '各类网盘泄漏资源'
+  },
   ],
   imgNav: [
     {
@@ -113,6 +115,38 @@ const navs = {
       url: 'https://ciyuan.cat/',
       interDescribe: '进入次元猫导航。'
     }
+  ],
+  Communityboutique: [
+    {
+      interName: '草榴社区',
+      interDescribe: '下载资源社区',
+      url: 'https://cl.3070y.xyz/?fulione',
+    },
+    {
+      interName: '海角社区',
+      interDescribe: '海角社区不用多说',
+      url: 'https://hja9c.com/',
+    },
+  ],
+  sonyEricsson: [
+    {
+      interName: '抖淫短视频',
+      interDescribe: '可刷的小视频。',
+      url: 'https://3atv9266.com/app/xjj.html',
+    },
+    {
+      interName: '小姐姐短视频',
+      interDescribe: '仅支持手机观看，等同海外抖音。',
+      url: 'https://3atv9266.com/app/xjj.html',
+    }, {
+      interName: '小短视频',
+      interDescribe: '尺度很大,仅支持手机。',
+      url: 'http://jko.floridacustompet.com/3vYk/?f=TURBd01EQXdNREF3TUlXTm1wdUNyTnpi&plat=2&cd=1658918535&foo=1&openid=e72160efd4284de72e91ba1395ca711f&ur=mnYQLf6GMquPPM9EFk9VE_&x=eHLYFrIAsw_-CwoA9Si0A&fp=3a7222bfcf035e05329eddb7264bdf94#1659706526965',
+    }, {
+      interName: 'BD之交',
+      interDescribe: '图片展示网站，用于观赏emmm。',
+      url: 'https://3atv9266.com/app/xjj.html',
+    },
   ]
 }
 export default navs

@@ -29,9 +29,11 @@ const SpecialArea = (props: IProps) => {
   }
   const sexCreateIndex = () => {
     return <div>
+      {createDomSpecial(navs.sonyEricsson, '手机专区', '描述')}
       {createDomSpecial(navs.nav, '网址专区', '网址描述')}
       {createDomSpecial(navs.imgNav, '动漫专区', '漫画描述')}
       {createDomSpecial(navs.Journalismnav, '黑料专区', '黑料描述')}
+      {createDomSpecial(navs.Communityboutique, '社区专区', '社区描述')}
       {createDomSpecial(navs.softwareArr, '软件专区', '软件描述')}
     </div>
   }
