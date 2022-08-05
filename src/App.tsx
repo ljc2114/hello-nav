@@ -8,7 +8,7 @@ import { Button, Modal, Switch } from 'antd';
 import { DropboxOutlined } from '@ant-design/icons';
 
 import './App.css';
-import logos from './logo';
+import payment from './assets/img/payment.png'
 
 function App(props: any) {
   const [widthBg, setWidthBg] = useState(501);
@@ -59,7 +59,7 @@ function App(props: any) {
           title: '开发不易，还请打赏',
           content: (
             <div>
-              <img src={ logos.payment }alt="" style={{ width: 200, height: 400}} />
+              <img src={ payment }alt="" style={{ width: 200, height: 400}} />
               <p>获取密码请添加微信：18845630338</p>
             </div>
           ),
