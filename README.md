@@ -21,6 +21,3 @@
 3. 最后打包
 
 - ``` yarn run make ```
-
-# 新世界password
-`daimagou`
