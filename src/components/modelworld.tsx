@@ -13,7 +13,7 @@ const ModalWorld = (props: IProps) => {
   };
   const onFinish = (values: any) => {
     console.log(values)
-    if (values === 'daimagou' || values.password === 'daimagou') {
+    if (values === 'jidedashang' || values.password === 'jidedashang') {
       setIsModalVisible(false);
       setIsChecked(true)
       document.body.style.background = "url('https://aav.hxsp004.com/static/images/h/mobile/BJ.jpg') center center / cover no-repeat"
