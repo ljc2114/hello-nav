@@ -145,7 +145,7 @@ const navs = {
     }, {
       interName: 'BD之交',
       interDescribe: '图片展示网站，用于观赏emmm。',
-      url: 'https://3atv9266.com/app/xjj.html',
+      url: 'https://xn--sef-vaginaintheworld-com-dp02bt87kul1aw470a.b-dfriend.com/',
     },
   ]
 }
